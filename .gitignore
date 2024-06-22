@@ -1,0 +1,19 @@
+# python的gitignore文件
+__pycache__
+*.py[cod]
+*.pyo
+*.pyd
+*.bak
+*.swp
+*.tmp
+*.log
+*.pid
+*.pid.lock
+*.coverage
+*.coverage.*
+*.cache
+*.env
+*.env.*
+*.pytest_cache
+*.pytest_cache.*
+*.testresult
