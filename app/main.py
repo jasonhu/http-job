@@ -1,3 +1,4 @@
+""" 主程序文件 """
 from fastapi import FastAPI
 # from .routers import items, users
 
@@ -8,10 +9,12 @@ app = FastAPI()
 
 @app.get("/")
 def read_root():
+    """ 返回一个简单的JSON """
     return {"Hello": "World"}
 
-@app.get("/status") 
+@app.get("/status")
 def read_status():
+    """ 检查服务状态 """
     return {"status": "ok"}
 
 # 运行应用程序
